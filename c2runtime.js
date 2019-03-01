@@ -23583,6 +23583,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetWidth,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Sprite.prototype.cnds.IsOutsideLayout,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
